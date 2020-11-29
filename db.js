@@ -1,0 +1,17 @@
+const Pool = require('pg').Pool;
+
+const pool = new Pool({
+    user: "sebin",
+    password: "postgres",
+    database: "my_community_db",
+    host: "localhost",
+    port: 5432
+});
+
+module.exports = pool;
+
+
+
+//
+
+//
